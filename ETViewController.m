@@ -2,7 +2,7 @@
 //  ETViewController.m
 //  ET
 //
-//  Created by Mina Malak on 9/17/14.
+//  Created by Mina Malak on 12/21/14.
 //  Copyright (c) 2014 LinkDev. All rights reserved.
 //
 
@@ -38,25 +38,25 @@
 	
 	if (m_isRoot) {
 		[menuButton setImage:[UIImage imageNamed:@"menu_ico"] forState:UIControlStateNormal];
-		if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-			[menuButton removeFromSuperview];
-            [menuButton setHidden:YES];
-			if (_navigationPaneBarButtonItem) {
-                if (UIDeviceOrientationIsPortrait(self.interfaceOrientation))
-                {
-                    [navBar.topItem setLeftBarButtonItem:self.navigationPaneBarButtonItem];
-                }
-			}
-		}
+//		if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+//			[menuButton removeFromSuperview];
+//            [menuButton setHidden:YES];
+//			if (_navigationPaneBarButtonItem) {
+//                if (UIDeviceOrientationIsPortrait(self.interfaceOrientation))
+//                {
+//                    [navBar.topItem setLeftBarButtonItem:self.navigationPaneBarButtonItem];
+//                }
+//			}
+//		}
 	}else
 	{
-        if ([NSStringFromClass(self.class) rangeOfString:@"Filter"].location != NSNotFound && UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-            [menuButton setHidden:YES];
-        }
-        else {
+//        if ([NSStringFromClass(self.class) rangeOfString:@"Filter"].location != NSNotFound && UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+//            [menuButton setHidden:YES];
+//        }
+//        else {
             [menuButton setHidden:NO];
             [menuButton setImage:[UIImage imageNamed:@"back_btn"] forState:UIControlStateNormal];
-        }
+//        }
 	}
 		
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 120, 30)];
@@ -153,7 +153,7 @@
 //		
 //	}else
 //	{
-		storyboardName = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)? @"Main_iPad" : @"Main_iPhone";
+		storyboardName = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)? @"Main_iPad" : @"Main";
 //	}
 	
 	return [UIStoryboard storyboardWithName:storyboardName bundle:nil];
@@ -168,12 +168,12 @@
 	hud =  [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 	hud.mode = MBProgressHUDModeIndeterminate;
 	hud.userInteractionEnabled = isBlocking;
-//	if ([SettingsController isArabic]) {
+	if ([SettingsController isArabic]) {
 		hud.labelText = @"جاري التحميل";
-//	}else
-//	{
-//		hud.labelText = @"Loading";
-//	}
+	}else
+	{
+		hud.labelText = @"Loading";
+	}
 }
 
 -(void)finishLoading

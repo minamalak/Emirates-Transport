@@ -2,7 +2,7 @@
 //  ETViewController.h
 //  ET
 //
-//  Created by Mina Malak on 9/17/14.
+//  Created by Mina Malak on 12/21/14.
 //  Copyright (c) 2014 LinkDev. All rights reserved.
 //
 
@@ -10,8 +10,6 @@
 #import "UIView+ZZFontSetter.h"
 #import "MBProgressHUD.h"
 #import "SettingsController.h"
-//#import "DetailsViewManager.h"
-//#import "SWRevealViewController.h"
 
 @interface ETViewController : UIViewController
 {

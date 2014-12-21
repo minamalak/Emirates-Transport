@@ -62,6 +62,19 @@
 		31F945B71A46E64300BF7C58 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945AF1A46E64300BF7C58 /* MBProgressHUD.m */; };
 		31F945B81A46E64300BF7C58 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945B11A46E64300BF7C58 /* SettingsController.m */; };
 		31F945B91A46E64300BF7C58 /* ETViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945B31A46E64300BF7C58 /* ETViewController.m */; };
+		31F945BD1A46EC7600BF7C58 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945BC1A46EC7600BF7C58 /* SplashViewController.m */; };
+		31F945C01A46EC8500BF7C58 /* LanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945BF1A46EC8500BF7C58 /* LanguageViewController.m */; };
+		31F945C31A46EC9000BF7C58 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945C21A46EC9000BF7C58 /* LoginViewController.m */; };
+		31F945C61A46EC9A00BF7C58 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945C51A46EC9A00BF7C58 /* RegistrationViewController.m */; };
+		31F945C91A46ECA500BF7C58 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945C81A46ECA500BF7C58 /* HomeViewController.m */; };
+		31F945CC1A46F10500BF7C58 /* ServiceGuideListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945CB1A46F10500BF7C58 /* ServiceGuideListingViewController.m */; };
+		31F945CF1A46F55F00BF7C58 /* ServiceGuideDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945CE1A46F55F00BF7C58 /* ServiceGuideDetailsViewController.m */; };
+		31F945D21A46F59E00BF7C58 /* CentersGuideListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945D11A46F59E00BF7C58 /* CentersGuideListingViewController.m */; };
+		31F945D51A46F5BE00BF7C58 /* RequestListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945D41A46F5BE00BF7C58 /* RequestListingViewController.m */; };
+		31F945D81A46F60C00BF7C58 /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945D71A46F60C00BF7C58 /* FeedBackViewController.m */; };
+		31F945DB1A47069600BF7C58 /* SuggestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945DA1A47069600BF7C58 /* SuggestionsViewController.m */; };
+		31F945DE1A4706F600BF7C58 /* CommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945DD1A4706F600BF7C58 /* CommentsViewController.m */; };
+		31F945E11A47072600BF7C58 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F945E01A47072600BF7C58 /* EditProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +198,32 @@
 		31F945B11A46E64300BF7C58 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
 		31F945B21A46E64300BF7C58 /* ETViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETViewController.h; sourceTree = "<group>"; };
 		31F945B31A46E64300BF7C58 /* ETViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETViewController.m; sourceTree = "<group>"; };
+		31F945BB1A46EC7600BF7C58 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		31F945BC1A46EC7600BF7C58 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		31F945BE1A46EC8500BF7C58 /* LanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageViewController.h; sourceTree = "<group>"; };
+		31F945BF1A46EC8500BF7C58 /* LanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageViewController.m; sourceTree = "<group>"; };
+		31F945C11A46EC9000BF7C58 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		31F945C21A46EC9000BF7C58 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		31F945C41A46EC9A00BF7C58 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		31F945C51A46EC9A00BF7C58 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		31F945C71A46ECA500BF7C58 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		31F945C81A46ECA500BF7C58 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		31F945CA1A46F10500BF7C58 /* ServiceGuideListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceGuideListingViewController.h; sourceTree = "<group>"; };
+		31F945CB1A46F10500BF7C58 /* ServiceGuideListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceGuideListingViewController.m; sourceTree = "<group>"; };
+		31F945CD1A46F55F00BF7C58 /* ServiceGuideDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceGuideDetailsViewController.h; sourceTree = "<group>"; };
+		31F945CE1A46F55F00BF7C58 /* ServiceGuideDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceGuideDetailsViewController.m; sourceTree = "<group>"; };
+		31F945D01A46F59E00BF7C58 /* CentersGuideListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentersGuideListingViewController.h; sourceTree = "<group>"; };
+		31F945D11A46F59E00BF7C58 /* CentersGuideListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentersGuideListingViewController.m; sourceTree = "<group>"; };
+		31F945D31A46F5BE00BF7C58 /* RequestListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestListingViewController.h; sourceTree = "<group>"; };
+		31F945D41A46F5BE00BF7C58 /* RequestListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestListingViewController.m; sourceTree = "<group>"; };
+		31F945D61A46F60C00BF7C58 /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController.h; sourceTree = "<group>"; };
+		31F945D71A46F60C00BF7C58 /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
+		31F945D91A47069600BF7C58 /* SuggestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestionsViewController.h; sourceTree = "<group>"; };
+		31F945DA1A47069600BF7C58 /* SuggestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestionsViewController.m; sourceTree = "<group>"; };
+		31F945DC1A4706F600BF7C58 /* CommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsViewController.h; sourceTree = "<group>"; };
+		31F945DD1A4706F600BF7C58 /* CommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsViewController.m; sourceTree = "<group>"; };
+		31F945DF1A47072600BF7C58 /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		31F945E01A47072600BF7C58 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +247,7 @@
 		31F944F31A46E4E700BF7C58 = {
 			isa = PBXGroup;
 			children = (
+				31F945BA1A46EC5600BF7C58 /* View Controllers */,
 				31F945A71A46E62000BF7C58 /* Helper Classes */,
 				31F945251A46E55900BF7C58 /* Services */,
 				31F944FE1A46E4E700BF7C58 /* ET */,
@@ -393,6 +433,39 @@
 			name = "Helper Classes";
 			sourceTree = "<group>";
 		};
+		31F945BA1A46EC5600BF7C58 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				31F945BB1A46EC7600BF7C58 /* SplashViewController.h */,
+				31F945BC1A46EC7600BF7C58 /* SplashViewController.m */,
+				31F945BE1A46EC8500BF7C58 /* LanguageViewController.h */,
+				31F945BF1A46EC8500BF7C58 /* LanguageViewController.m */,
+				31F945C11A46EC9000BF7C58 /* LoginViewController.h */,
+				31F945C21A46EC9000BF7C58 /* LoginViewController.m */,
+				31F945C41A46EC9A00BF7C58 /* RegistrationViewController.h */,
+				31F945C51A46EC9A00BF7C58 /* RegistrationViewController.m */,
+				31F945C71A46ECA500BF7C58 /* HomeViewController.h */,
+				31F945C81A46ECA500BF7C58 /* HomeViewController.m */,
+				31F945CA1A46F10500BF7C58 /* ServiceGuideListingViewController.h */,
+				31F945CB1A46F10500BF7C58 /* ServiceGuideListingViewController.m */,
+				31F945CD1A46F55F00BF7C58 /* ServiceGuideDetailsViewController.h */,
+				31F945CE1A46F55F00BF7C58 /* ServiceGuideDetailsViewController.m */,
+				31F945D01A46F59E00BF7C58 /* CentersGuideListingViewController.h */,
+				31F945D11A46F59E00BF7C58 /* CentersGuideListingViewController.m */,
+				31F945D31A46F5BE00BF7C58 /* RequestListingViewController.h */,
+				31F945D41A46F5BE00BF7C58 /* RequestListingViewController.m */,
+				31F945D61A46F60C00BF7C58 /* FeedBackViewController.h */,
+				31F945D71A46F60C00BF7C58 /* FeedBackViewController.m */,
+				31F945D91A47069600BF7C58 /* SuggestionsViewController.h */,
+				31F945DA1A47069600BF7C58 /* SuggestionsViewController.m */,
+				31F945DC1A4706F600BF7C58 /* CommentsViewController.h */,
+				31F945DD1A4706F600BF7C58 /* CommentsViewController.m */,
+				31F945DF1A47072600BF7C58 /* EditProfileViewController.h */,
+				31F945E01A47072600BF7C58 /* EditProfileViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -496,12 +569,16 @@
 				31F945831A46E59B00BF7C58 /* ETGuidLookupItem.m in Sources */,
 				31F945951A46E59B00BF7C58 /* ETSubmitAppreciationResponse.m in Sources */,
 				31F945961A46E59B00BF7C58 /* ETSubmitComplaint.m in Sources */,
+				31F945BD1A46EC7600BF7C58 /* SplashViewController.m in Sources */,
 				31F945841A46E59B00BF7C58 /* ETIntLookupItem.m in Sources */,
+				31F945DE1A4706F600BF7C58 /* CommentsViewController.m in Sources */,
 				31F945891A46E59B00BF7C58 /* ETRetrieveCasesByNumber.m in Sources */,
 				31F9457E1A46E59B00BF7C58 /* ETGetServiceCenterDetailsByIdResponse.m in Sources */,
+				31F945D51A46F5BE00BF7C58 /* RequestListingViewController.m in Sources */,
 				31F945B71A46E64300BF7C58 /* MBProgressHUD.m in Sources */,
 				31F945A51A46E60100BF7C58 /* WebServiceRequest.m in Sources */,
 				31F945811A46E59B00BF7C58 /* ETGetServicesPerCenter.m in Sources */,
+				31F945E11A47072600BF7C58 /* EditProfileViewController.m in Sources */,
 				31F9457B1A46E59B00BF7C58 /* ETGetOptionsSetValues.m in Sources */,
 				31F945881A46E59B00BF7C58 /* ETRetrieveCasesByIdResponse.m in Sources */,
 				31F9457F1A46E59B00BF7C58 /* ETGetServiceCentersByDepartmentId.m in Sources */,
@@ -510,9 +587,11 @@
 				31F945911A46E59B00BF7C58 /* ETService.m in Sources */,
 				31F9458B1A46E59B00BF7C58 /* ETRetrieveCasesByUser.m in Sources */,
 				31F945741A46E59B00BF7C58 /* ETCaseDataContract.m in Sources */,
+				31F945CF1A46F55F00BF7C58 /* ServiceGuideDetailsViewController.m in Sources */,
 				31F9458A1A46E59B00BF7C58 /* ETRetrieveCasesByNumberResponse.m in Sources */,
 				31F945081A46E4E700BF7C58 /* ViewController.m in Sources */,
 				31F945051A46E4E700BF7C58 /* AppDelegate.m in Sources */,
+				31F945CC1A46F10500BF7C58 /* ServiceGuideListingViewController.m in Sources */,
 				31F945931A46E59B00BF7C58 /* ETServiceClient.m in Sources */,
 				31F945761A46E59B00BF7C58 /* ETDepartmentObject.m in Sources */,
 				31F945941A46E59B00BF7C58 /* ETSubmitAppreciation.m in Sources */,
@@ -521,24 +600,31 @@
 				31F945B61A46E64300BF7C58 /* UIView+ZZFontSetter.m in Sources */,
 				31F945971A46E59B00BF7C58 /* ETSubmitComplaintResponse.m in Sources */,
 				31F945861A46E59B00BF7C58 /* ETResponseObject.m in Sources */,
+				31F945C01A46EC8500BF7C58 /* LanguageViewController.m in Sources */,
 				31F945991A46E59B00BF7C58 /* ETSubmitSuggestionResponse.m in Sources */,
 				31F945901A46E59B00BF7C58 /* ETRetrieveServiceCentersResponse.m in Sources */,
+				31F945C31A46EC9000BF7C58 /* LoginViewController.m in Sources */,
 				31F945A41A46E60100BF7C58 /* WebServiceEntities.m in Sources */,
 				31F945821A46E59B00BF7C58 /* ETGetServicesPerCenterResponse.m in Sources */,
 				31F945871A46E59B00BF7C58 /* ETRetrieveCasesById.m in Sources */,
 				31F9458E1A46E59B00BF7C58 /* ETRetrieveFilteredDropdownValuesResponse.m in Sources */,
 				31F945781A46E59B00BF7C58 /* ETGetDepartmentsResponse.m in Sources */,
 				31F9457C1A46E59B00BF7C58 /* ETGetOptionsSetValuesResponse.m in Sources */,
+				31F945DB1A47069600BF7C58 /* SuggestionsViewController.m in Sources */,
 				31F945981A46E59B00BF7C58 /* ETSubmitSuggestion.m in Sources */,
 				31F945921A46E59B00BF7C58 /* ETServiceCenter.m in Sources */,
 				31F9457A1A46E59B00BF7C58 /* ETGetlookupItemsResponse.m in Sources */,
 				31F945B41A46E64300BF7C58 /* OBShapedButton.m in Sources */,
 				31F945771A46E59B00BF7C58 /* ETGetDepartments.m in Sources */,
 				31F9458C1A46E59B00BF7C58 /* ETRetrieveCasesByUserResponse.m in Sources */,
+				31F945D21A46F59E00BF7C58 /* CentersGuideListingViewController.m in Sources */,
 				31F945791A46E59B00BF7C58 /* ETGetlookupItems.m in Sources */,
 				31F945021A46E4E700BF7C58 /* main.m in Sources */,
+				31F945C91A46ECA500BF7C58 /* HomeViewController.m in Sources */,
+				31F945C61A46EC9A00BF7C58 /* RegistrationViewController.m in Sources */,
 				31F945A31A46E60100BF7C58 /* WebService.m in Sources */,
 				31F945751A46E59B00BF7C58 /* ETCaseObject.m in Sources */,
+				31F945D81A46F60C00BF7C58 /* FeedBackViewController.m in Sources */,
 				31F945851A46E59B00BF7C58 /* ETLookupItem.m in Sources */,
 				31F945B51A46E64300BF7C58 /* UIImage+ColorAtPixel.m in Sources */,
 				31F9457D1A46E59B00BF7C58 /* ETGetServiceCenterDetailsById.m in Sources */,
@@ -734,6 +820,7 @@
 				31F945211A46E4E700BF7C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31F945221A46E4E700BF7C58 /* Build configuration list for PBXNativeTarget "ETTests" */ = {
 			isa = XCConfigurationList;
@@ -742,6 +829,7 @@
 				31F945241A46E4E700BF7C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
